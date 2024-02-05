@@ -19,12 +19,12 @@ public class Game {
     private boolean isDone;
     public Game(){
         System.out.println("Welcome to your Dicebag!");
-        System.out.print("What is your name?: ");
-        name = scnr.nextLine();
+        //System.out.print("What is your name?: ");
+        //name = scnr.nextLine();
     }
     public void start(){
         isDone = false;
-        System.out.println(name + ", we have given you a dice bag, what would you like to do?");
+        System.out.println("We have given you a dice bag, what would you like to do?");
         System.out.println("1) Add Dice, 2) Clear Dice, 3) Roll Dice");
         menuChoice = scnr.nextInt();
         while (menuChoice > 0 && menuChoice < 4){    
